@@ -7,7 +7,7 @@ export async function POST(request) {
 	const translatedTextPromise = new Promise((resolve, reject) => {
 
 		exec(
-			`echo dog`,
+			`ls`,
 			(error, stdout, stderr) => {
 				if (error) {
 					console.error(`exec error: ${error}`);
