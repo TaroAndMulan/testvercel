@@ -6,9 +6,8 @@ export async function POST(request) {
 
 	const translatedTextPromise = new Promise((resolve, reject) => {
 
-        /*
 		exec(
-			`pypy\\Scripts\\activate.bat && python component\\pytest.py`,
+			`echo dog`,
 			(error, stdout, stderr) => {
 				if (error) {
 					console.error(`exec error: ${error}`);
@@ -16,8 +15,7 @@ export async function POST(request) {
 				}
 				resolve(stdout);
 			}
-		);*/
-        resolve("HAHA NOOB")
+		);
 
 	});
 
