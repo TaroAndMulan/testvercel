@@ -6,6 +6,7 @@ export async function POST(request) {
 
 	const translatedTextPromise = new Promise((resolve, reject) => {
 
+        /*
 		exec(
 			`pypy\\Scripts\\activate.bat && python component\\pytest.py`,
 			(error, stdout, stderr) => {
@@ -15,7 +16,9 @@ export async function POST(request) {
 				}
 				resolve(stdout);
 			}
-		);
+		);*/
+        resolve("HAHA NOOB")
+
 	});
 
 	const translatedText = await translatedTextPromise;
