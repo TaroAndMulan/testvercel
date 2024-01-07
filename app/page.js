@@ -21,6 +21,8 @@ export default function Home() {
 			body: JSON.stringify("xxx" ),
 		});
 		const { translatedText } = await res.json();
+    console.log(translatedText)
+
 		setSolution(translatedText);
 	};
 

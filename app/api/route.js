@@ -13,7 +13,6 @@ export async function POST(request) {
 					console.error(`exec error: ${error}`);
 					reject(error);
 				}
-				console.log(stdout)
 				resolve(stdout);
 			}
 		);
